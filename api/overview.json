@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "1.0.0",
+  "dataMode": "design_demo",
+  "country": {
+    "code": "SG",
+    "name": "Singapore",
+    "nameZh": "新加坡"
+  },
+  "source": {
+    "type": "figma_design",
+    "frameName": "overview test",
+    "nodeId": "398:14380",
+    "dataPanelNodeId": "398:14383",
+    "retrievedAt": "2026-10-26T11:25:01Z",
+    "referenceYear": null
+  },
+  "data": {
+    "metrics": {
+      "weather": {
+        "label": "Weather",
+        "labelZh": "天气",
+        "temperatureMin": 25,
+        "temperatureMax": 33,
+        "unit": "°C",
+        "condition": "Cloudy",
+        "conditionZh": "多云",
+        "chanceOfRainPercent": 55,
+        "displayValue": "25 -33",
+        "displayText": "25 -33°C",
+        "description": "Cloudy, 55% chance of rain",
+        "descriptionZh": "多云，降雨概率 55%",
+        "sourceNodeId": "I398:14383;711:19635;96:13440",
+        "descriptionSourceNodeId": "I398:14383;711:19635;96:13441"
+      },
+      "landArea": {
+        "label": "Total Land Area",
+        "labelZh": "土地总面积",
+        "displayLabel": "TOTAL Land Area",
+        "value": 734.3,
+        "displayValue": "734.3",
+        "unit": "km²",
+        "displayText": "734.3 km²",
+        "sourceNodeId": "I398:14383;143:13392;96:13440",
+        "labelSourceNodeId": "I398:14383;143:13392;96:13441"
+      },
+      "totalPopulation": {
+        "label": "Population",
+        "labelZh": "人口",
+        "displayLabel": "population",
+        "value": 5029130,
+        "displayValue": "5,029,130",
+        "unit": "people",
+        "displayText": "5,029,130",
+        "sourceNodeId": "I398:14383;143:13394;96:13440",
+        "labelSourceNodeId": "I398:14383;143:13394;96:13441"
+      },
+      "gdpPerCapita": {
+        "label": "GDP per Capita",
+        "labelZh": "人均 GDP",
+        "displayLabel": "GDP per capita (2023)",
+        "value": 87880,
+        "displayValue": "87,880",
+        "unit": "USD",
+        "year": 2023,
+        "displayText": "US$ 87,880",
+        "originalDisplayText": "US$ 87,8800",
+        "sourceNodeId": "I398:14383;817:38456;96:13440",
+        "labelSourceNodeId": "I398:14383;817:38456;96:13441"
+      },
+      "touristArrivals": {
+        "label": "Tourist Arrivals",
+        "labelZh": "游客到访量",
+        "displayLabel": "tourist arrivals (2022)",
+        "value": 6305600,
+        "displayValue": "6,305,600",
+        "unit": "arrivals",
+        "year": 2022,
+        "displayText": "6,305,600",
+        "sourceNodeId": "I398:14383;817:38510;96:13440",
+        "labelSourceNodeId": "I398:14383;817:38510;96:13441"
+      }
+    }
+  },
+  "notes": [
+    {
+      "code": "DEMO_DATA",
+      "text": "Static demonstration data extracted from the overview test bottom panel. These values are design examples, not a live weather service or verified official statistics.",
+      "textZh": "按 overview test 底部面板提取的静态演示数据，用于界面数据绑定，不是实时天气或经核验的官方统计数据。"
+    },
+    {
+      "code": "GDP_USER_CORRECTION",
+      "text": "The design text US$ 87,8800 was corrected to US$ 87,880 at the user's request. originalDisplayText preserves the source text; the Figma design itself was not edited.",
+      "textZh": "按用户确认，将设计稿中的 US$ 87,8800 修正为 US$ 87,880。originalDisplayText 保留原文，本次未修改 Figma 画板。"
+    },
+    {
+      "code": "REFERENCE_YEARS",
+      "text": "GDP per capita is labelled 2023 and tourist arrivals 2022 in the design. Other metrics have no reference date. retrievedAt records extraction time, not the observation date.",
+      "textZh": "设计稿标注的人均 GDP 年份为 2023，游客到访量年份为 2022；其他指标未标注统计日期。retrievedAt 为提取时间，不代表数据观测日期。"
+    }
+  ]
+}
