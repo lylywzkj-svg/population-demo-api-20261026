@@ -19,68 +19,68 @@
       "landArea": {
         "label": "Land Area",
         "labelZh": "土地面积",
-        "value": 735.6,
-        "displayValue": "735,6",
+        "value": 809.16,
+        "displayValue": "809,16",
         "unit": "m^2",
-        "displayText": "735,6 M^2",
+        "displayText": "809,16 M^2",
         "sourceNodeId": "374:5091"
       },
       "populationDensity": {
         "label": "Population Density",
         "labelZh": "人口密度",
-        "value": 8207,
-        "displayValue": "8.207",
+        "value": 9027.7,
+        "displayValue": "9.027,7",
         "unit": "m^2",
-        "displayText": "8.207 M^2",
+        "displayText": "9.027,7 M^2",
         "sourceNodeId": "374:5100"
       },
       "totalPopulation": {
         "label": "Total Population",
         "labelZh": "总人口",
-        "value": 6111200,
-        "displayValue": "6,111,200",
+        "value": 6722320,
+        "displayValue": "6,722,320",
         "unit": "people",
-        "annualChangePercent": 1.2,
+        "annualChangePercent": 1.32,
         "changeDirection": "up",
         "sourceNodeId": "374:5141"
       },
       "citizens": {
         "label": "Singapore Citizens",
         "labelZh": "新加坡公民",
-        "value": 4204573,
-        "displayValue": "4.204.573",
+        "value": 4625030.3,
+        "displayValue": "4.625.030,3",
         "unit": "people",
-        "annualChangePercent": 0.6,
+        "annualChangePercent": 0.66,
         "changeDirection": "up",
         "sourceNodeId": "374:5154"
       },
       "permanentResidents": {
         "label": "Permanent Residents",
         "labelZh": "永久居民",
-        "value": 543831,
-        "displayValue": "543.831",
+        "value": 598214.1,
+        "displayValue": "598.214,1",
         "unit": "people",
-        "annualChangePercent": -0.2,
+        "annualChangePercent": -0.22,
         "changeDirection": "down",
         "sourceNodeId": "374:5167"
       },
       "fertilityRate": {
         "label": "Fertility Rate",
         "labelZh": "生育率",
-        "value": 0.97,
-        "displayValue": "0,97",
+        "value": 1.067,
+        "displayValue": "1,067",
         "unit": null,
-        "annualChangePercent": -2,
+        "annualChangePercent": -2.2,
         "changeDirection": "down",
         "sourceNodeId": "374:5181"
       },
       "lifeExpectancy": {
         "label": "Life Expectancy",
         "labelZh": "预期寿命",
-        "value": 84,
-        "displayValue": "84",
+        "value": 92.4,
+        "displayValue": "92.4",
         "unit": "years",
-        "displayText": "84 YEARS",
+        "displayText": "92.4 YEARS",
         "sourceNodeId": "374:5210"
       }
     },
@@ -120,47 +120,47 @@
         {
           "index": 1,
           "x": 0.093549,
-          "value": 2.31
+          "value": 2.541
         },
         {
           "index": 2,
           "x": 0.195161,
-          "value": 4.12
+          "value": 4.532
         },
         {
           "index": 3,
           "x": 0.296774,
-          "value": 4.54
+          "value": 4.994
         },
         {
           "index": 4,
           "x": 0.398387,
-          "value": 3.5
+          "value": 3.85
         },
         {
           "index": 5,
           "x": 0.5,
-          "value": 3.5
+          "value": 3.85
         },
         {
           "index": 6,
           "x": 0.601613,
-          "value": 4
+          "value": 4.4
         },
         {
           "index": 7,
           "x": 0.703226,
-          "value": 4.35
+          "value": 4.785
         },
         {
           "index": 8,
           "x": 0.804839,
-          "value": 5.46
+          "value": 6.006
         },
         {
           "index": 9,
           "x": 0.906452,
-          "value": 6.73
+          "value": 7.403
         }
       ]
     }
@@ -168,8 +168,8 @@
   "notes": [
     {
       "code": "DEMO_DATA",
-      "text": "Static demonstration values transcribed from the design. These are not verified official statistics and do not refresh automatically.",
-      "textZh": "设计稿中的静态演示数据，未核验为官方统计数据，不会自动更新。"
+      "text": "Static demonstration data based on the design, with values adjusted as described below. These are not verified official statistics and do not refresh automatically.",
+      "textZh": "基于设计稿并按下方说明调整的静态演示数据，未核验为官方统计数据，不会自动更新。"
     },
     {
       "code": "UNITS_AS_DESIGNED",
@@ -178,13 +178,18 @@
     },
     {
       "code": "NUMBER_FORMAT_NORMALIZED",
-      "text": "Display strings preserve the design. Numeric values interpret commas in 735,6 and 0,97 as decimals, and dots in 8.207, 4.204.573 and 543.831 as thousands separators.",
-      "textZh": "displayValue 保留原始格式；value 将 735,6 和 0,97 的逗号按小数点处理，将 8.207、4.204.573、543.831 的点按千位分隔符处理。"
+      "text": "Display strings use the design separator styles and are updated to match numeric values. Commas are decimal separators and dots are thousands separators, except totalPopulation and lifeExpectancy use English number formatting.",
+      "textZh": "显示字符串沿用设计稿的分隔符样式，并与数值同步更新：逗号表示小数点，点表示千位分隔符；totalPopulation 和 lifeExpectancy 使用英文数字格式。"
     },
     {
       "code": "TREND_ESTIMATED",
-      "text": "Nine trend values are estimated from dot centres against the 0–8 axis, rounded to 2 decimals. x is the normalized horizontal position, not a year. The five year labels are separate because the design does not identify the year of each point.",
-      "textZh": "趋势图 9 个点的数值按圆点中心和 0–8 纵轴估算，保留两位小数。x 是归一化横坐标，不代表年份；5 个年份标签单独提供，不虚构各点对应的年份。"
+      "text": "The nine original trend values were estimated from dot centres against the 0–8 axis and rounded to 2 decimals before the adjustment below. x is the normalized horizontal position, not a year. The five year labels are separate because the design does not identify the year of each point.",
+      "textZh": "趋势图 9 个原始值按圆点中心和 0–8 纵轴估算，保留两位小数后再按下方说明调整。x 是归一化横坐标，不代表年份；5 个年份标签单独提供，不虚构各点对应的年份。"
+    },
+    {
+      "code": "DEMO_INCREASE_10_PERCENT",
+      "text": "On 2026-10-26, all seven metric values, four annual-change percentages and nine trend values were multiplied by 1.1. Display strings were updated accordingly. Signed annual-change percentages are scaled proportionally, not increased by 10 percentage points. Fractional results are retained, including demonstration population counts. Years, identifiers and chart coordinates are unchanged.",
+      "textZh": "2026-10-26 将 7 项指标值、4 项年度变化率和 9 个趋势值统一乘以 1.1，显示字符串同步更新。年度变化率按带符号的原值同比例缩放，不是增加 10 个百分点。计算结果保留小数，包括演示人口数量；年份、标识符和图表坐标保持不变。"
     }
   ]
 }
