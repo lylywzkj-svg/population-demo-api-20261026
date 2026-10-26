@@ -1,0 +1,190 @@
+{
+  "schemaVersion": "1.0.0",
+  "dataMode": "design_demo",
+  "country": {
+    "code": "SG",
+    "name": "Singapore",
+    "nameZh": "新加坡"
+  },
+  "source": {
+    "type": "figma_design",
+    "frameName": "Population test",
+    "nodeId": "374:5077",
+    "dataPanelNodeId": "374:5081",
+    "retrievedAt": "2026-10-26T05:47:21.754Z",
+    "referenceYear": null
+  },
+  "data": {
+    "metrics": {
+      "landArea": {
+        "label": "Land Area",
+        "labelZh": "土地面积",
+        "value": 735.6,
+        "displayValue": "735,6",
+        "unit": "m^2",
+        "displayText": "735,6 M^2",
+        "sourceNodeId": "374:5091"
+      },
+      "populationDensity": {
+        "label": "Population Density",
+        "labelZh": "人口密度",
+        "value": 8207,
+        "displayValue": "8.207",
+        "unit": "m^2",
+        "displayText": "8.207 M^2",
+        "sourceNodeId": "374:5100"
+      },
+      "totalPopulation": {
+        "label": "Total Population",
+        "labelZh": "总人口",
+        "value": 6111200,
+        "displayValue": "6,111,200",
+        "unit": "people",
+        "annualChangePercent": 1.2,
+        "changeDirection": "up",
+        "sourceNodeId": "374:5141"
+      },
+      "citizens": {
+        "label": "Singapore Citizens",
+        "labelZh": "新加坡公民",
+        "value": 4204573,
+        "displayValue": "4.204.573",
+        "unit": "people",
+        "annualChangePercent": 0.6,
+        "changeDirection": "up",
+        "sourceNodeId": "374:5154"
+      },
+      "permanentResidents": {
+        "label": "Permanent Residents",
+        "labelZh": "永久居民",
+        "value": 543831,
+        "displayValue": "543.831",
+        "unit": "people",
+        "annualChangePercent": -0.2,
+        "changeDirection": "down",
+        "sourceNodeId": "374:5167"
+      },
+      "fertilityRate": {
+        "label": "Fertility Rate",
+        "labelZh": "生育率",
+        "value": 0.97,
+        "displayValue": "0,97",
+        "unit": null,
+        "annualChangePercent": -2,
+        "changeDirection": "down",
+        "sourceNodeId": "374:5181"
+      },
+      "lifeExpectancy": {
+        "label": "Life Expectancy",
+        "labelZh": "预期寿命",
+        "value": 84,
+        "displayValue": "84",
+        "unit": "years",
+        "displayText": "84 YEARS",
+        "sourceNodeId": "374:5210"
+      }
+    },
+    "populationTrend": {
+      "title": "Population Trend in Singapore (Million)",
+      "originalTitle": "POPULATION TREN IN SINGAPORE (MILLION)",
+      "unit": "million_people",
+      "valueSource": "estimated_from_design_geometry",
+      "yAxis": {
+        "min": 0,
+        "max": 8,
+        "tickInterval": 2
+      },
+      "xAxisLabels": [
+        {
+          "label": "2016",
+          "x": 0.094836
+        },
+        {
+          "label": "2018",
+          "x": 0.297418
+        },
+        {
+          "label": "2019",
+          "x": 0.5
+        },
+        {
+          "label": "2020",
+          "x": 0.702582
+        },
+        {
+          "label": "2021",
+          "x": 0.905164
+        }
+      ],
+      "points": [
+        {
+          "index": 1,
+          "x": 0.093549,
+          "value": 2.31
+        },
+        {
+          "index": 2,
+          "x": 0.195161,
+          "value": 4.12
+        },
+        {
+          "index": 3,
+          "x": 0.296774,
+          "value": 4.54
+        },
+        {
+          "index": 4,
+          "x": 0.398387,
+          "value": 3.5
+        },
+        {
+          "index": 5,
+          "x": 0.5,
+          "value": 3.5
+        },
+        {
+          "index": 6,
+          "x": 0.601613,
+          "value": 4
+        },
+        {
+          "index": 7,
+          "x": 0.703226,
+          "value": 4.35
+        },
+        {
+          "index": 8,
+          "x": 0.804839,
+          "value": 5.46
+        },
+        {
+          "index": 9,
+          "x": 0.906452,
+          "value": 6.73
+        }
+      ]
+    }
+  },
+  "notes": [
+    {
+      "code": "DEMO_DATA",
+      "text": "Static demonstration values transcribed from the design. These are not verified official statistics and do not refresh automatically.",
+      "textZh": "设计稿中的静态演示数据，未核验为官方统计数据，不会自动更新。"
+    },
+    {
+      "code": "UNITS_AS_DESIGNED",
+      "text": "Land area and population density retain the design unit m^2. These labels have not been validated or converted.",
+      "textZh": "土地面积和人口密度的单位按设计稿保留为 m^2，未校正或换算。"
+    },
+    {
+      "code": "NUMBER_FORMAT_NORMALIZED",
+      "text": "Display strings preserve the design. Numeric values interpret commas in 735,6 and 0,97 as decimals, and dots in 8.207, 4.204.573 and 543.831 as thousands separators.",
+      "textZh": "displayValue 保留原始格式；value 将 735,6 和 0,97 的逗号按小数点处理，将 8.207、4.204.573、543.831 的点按千位分隔符处理。"
+    },
+    {
+      "code": "TREND_ESTIMATED",
+      "text": "Nine trend values are estimated from dot centres against the 0–8 axis, rounded to 2 decimals. x is the normalized horizontal position, not a year. The five year labels are separate because the design does not identify the year of each point.",
+      "textZh": "趋势图 9 个点的数值按圆点中心和 0–8 纵轴估算，保留两位小数。x 是归一化横坐标，不代表年份；5 个年份标签单独提供，不虚构各点对应的年份。"
+    }
+  ]
+}
